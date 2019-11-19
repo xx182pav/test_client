@@ -3,12 +3,12 @@ import datetime
 
 # Данные авторизации в API Trello
 auth_params = {
-    'key': "",
-    'token': "", }
+    'key': "",#Введите свой ключ
+    'token': "", }#Введите свой токен
 
 # Адрес, на котором расположен API Trello, # Именно туда мы будем отправлять HTTP запросы.
 base_url = "https://api.trello.com/1/{}"
-board_id = ""
+board_id = ""#Введите свой id
 
 
 def read():
