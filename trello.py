@@ -2,9 +2,9 @@ import sys
 import requests
 base_url = "https://api.trello.com/1/{}" 
 auth_params = {
-    'key': "b62235ca69e3c9445371453e452d45ea",    
-    'token': "e4816f6182e5b08eee391c0a1741c62f0a5bde4dbc11162057974091e99239a4", }
-board_id = "5dd115063de7d949b8fd8b30"    
+    'key': "",    
+    'token': "", }
+board_id = ""    
 response = requests.get(base_url.format('boards/' + board_id), params=auth_params).json()   
 def read():      
     # Получим данные всех колонок на доске:      
